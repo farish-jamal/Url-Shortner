@@ -1,0 +1,18 @@
+{
+  "name": "url-shortner",
+  "version": "1.0.0",
+  "description": "This is Url Shortner",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Farish Jamal",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.2",
+    "shortid": "^2.2.16"
+  }
+}
